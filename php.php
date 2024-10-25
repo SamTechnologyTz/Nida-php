@@ -1,5 +1,5 @@
 <?php
-$url = "http://localhost/".$_SERVER['HTTP_HOST']."/nida/api";
+$url = "http://kabukukidigitali.xyz/nida/api/index.php";
 $account_id = "Your account id";
 $api_key = "Your api key ";
 $token = "Your token";
