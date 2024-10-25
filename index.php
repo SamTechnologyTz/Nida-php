@@ -17,7 +17,7 @@ curl_setopt($curl, CURLOPT_HTTPHEADER, [
     'Content-Type: application/json',
     'api-key:'.$api_key,
     'token:'.$token,
-    'account-id:'.$account_id,
+    'account_id:'.$account_id,
 ]);
 
 $response = curl_exec($curl);
